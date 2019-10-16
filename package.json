@@ -1,0 +1,19 @@
+{
+  "name": "apiusers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Danilo Marques <danilomarques20@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "nodemon src/dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/mongoose": "^5.5.21",
+    "nodemon": "^1.19.4"
+  }
+}
